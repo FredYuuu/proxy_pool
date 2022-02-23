@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: dy/proxy_pool
+          images: fredintosh/proxy_pool
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
