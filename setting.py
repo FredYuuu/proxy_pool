@@ -59,12 +59,13 @@ PROXY_FETCHER = [
 
 # ############# proxy validator #################
 # 代理验证目标网站
-HTTP_URL = "http://httpbin.org"
+# HTTP_URL = "http://httpbin.org"
 
-HTTPS_URL = "https://www.qq.com"
+HTTP_URL = "http://www.iesdouyin.com"
+HTTPS_URL = "https://www.iesdouyin.com"
 
 # 代理验证时超时时间
-VERIFY_TIMEOUT = 10
+VERIFY_TIMEOUT = 2
 
 # 近PROXY_CHECK_COUNT次校验中允许的最大失败次数,超过则剔除代理
 MAX_FAIL_COUNT = 0
